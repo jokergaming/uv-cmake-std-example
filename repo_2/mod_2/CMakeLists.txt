@@ -1,0 +1,2 @@
+file(GLOB SOURCE_FILES CONFIGURE_DEPENDS src/*.cc)
+add_library(mod_2 STATIC ${SOURCE_FILES})
