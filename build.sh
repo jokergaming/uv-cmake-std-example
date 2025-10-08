@@ -2,8 +2,8 @@
 
 shopt -s nullglob
 
-# gcc_root=/depot/opensource/gcc/v10.3.0
-gcc_root=/usr
+gcc_root=/depot/opensource/gcc/v10.3.0
+# gcc_root=/usr
 sandbox=$(realpath $(dirname -- ${0}))
 echo $sandbox
 
